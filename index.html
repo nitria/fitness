@@ -14,10 +14,47 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Fitness</title>
   </head>
   <body>
+    <div class="forms">
+      <form class="form form1">
+        <i class="fa fa-times close" aria-hidden="true"></i>
+        <div class="username userInputs">
+          <label for="username">Username</label>
+          <input type="text" value="" id="username" required />
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="pass userInputs">
+          <label for="password">Password</label>
+          <input type="password" value="" class="password" required />
+          <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+        <input type="submit" value="Login" id="btn" class="btn" />
+      </form>
+      <form class="form form2">
+        <i class="fa fa-times close" aria-hidden="true"></i>
+        <div class="username userInputs">
+          <label for="username">Username</label>
+          <input type="text" value="" id="username" required />
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="pass userInputs">
+          <label for="password">Password</label>
+          <input type="password" value="" class="password" required />
+          <i class="fa fa-lock" aria-hidden="true"></i>
+        </div>
+        <input type="submit" value="Sign Up" class="btn" />
+      </form>
+      <form class="form contactForm">
+        <i class="fa fa-times close" aria-hidden="true"></i>
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter your email" />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="button" value="Send" />
+      </form>
+    </div>
     <header class="header col-lg-12 col-md-12" id="header">
       <div class="hamburger">
         <span></span>
@@ -30,16 +67,23 @@
           <ul>
             <li><a href="#header">HOME</a></li>
             <li><a href="#about">ABOUT US</a></li>
-            <li><a href="#programm">PAGE</a></li>
+            <li><a href="#programm">PROGRAMM</a></li>
             <li><a href="#team">BLOG</a></li>
             <li><a href="#media">CONTACT</a></li>
           </ul>
         </nav>
         <div class="user">
           <ul>
-            <li><a href="#">LOGIN</a></li>
-            <li><a href="#">SIGN UP</a></li>
-            <li><a href="#">CHOSE PLAN</a></li>
+            <li><button class="userbtnlogin userbtns">LOGIN</button></li>
+            <li><button class="userbtnsignup userbtns">SIGN UP</button></li>
+            <li>
+              <button
+                class="planbtn"
+                onclick="document.getElementById('programm').scrollIntoView();"
+              >
+                CHOOSE PLAN
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -107,7 +151,7 @@
             </div>
           </div>
           <div class="btn">
-            <button>get in touch</button>
+            <button>book now</button>
           </div>
         </div>
       </div>
@@ -128,7 +172,7 @@
             aliquip ex ea
           </p>
           <div class="btn">
-            <button>get in touch</button>
+            <button>Our blog</button>
           </div>
         </div>
         <div class="img">
@@ -156,7 +200,7 @@
               crossfit.
             </p>
             <div class="btn">
-              <button>get in touch</button>
+              <button class="signUpProgramm">sign up</button>
             </div>
           </div>
         </div>
@@ -171,7 +215,7 @@
               our gym center.
             </p>
             <div class="btn">
-              <button>get in touch</button>
+              <button class="signUpProgramm">sign up</button>
             </div>
           </div>
         </div>
@@ -186,7 +230,7 @@
               activity, we’ve got a special program.
             </p>
             <div class="btn">
-              <button>get in touch</button>
+              <button class="signUpProgramm">sign up</button>
             </div>
           </div>
         </div>
@@ -256,14 +300,14 @@
         <h1>try for free</h1>
         <h2>free 5 days pass</h2>
         <div class="btn">
-          <button>get in touch</button>
+          <button>get your pass</button>
         </div>
       </div>
       <div class="right">
         <h1>call us and try</h1>
         <h2>957 547 4545</h2>
         <div class="btn">
-          <button>get in touch</button>
+          <button class="contactUs">contact us</button>
         </div>
       </div>
     </div>
@@ -406,6 +450,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </body>
 </html>
