@@ -216,7 +216,7 @@ nav {
 }
 
 .banner {
-  background: url("/images/header.png") no-repeat center / cover;
+  background: url("../images/header.png") no-repeat center / cover;
   height: 950px;
   position: relative;
   display: flex;
