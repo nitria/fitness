@@ -249,6 +249,7 @@ nav {
 .banner h2 {
   padding: 20px 0;
   font-size: 0.87em;
+  text-transform: inherit;
 }
 
 .banner h1 span {
