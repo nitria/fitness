@@ -216,7 +216,7 @@ nav {
 }
 
 .banner {
-  background: url("/images/header.png") no-repeat center / cover;
+  background: url("../images/header.png") no-repeat center / cover;
   height: 950px;
   position: relative;
   display: flex;
@@ -486,7 +486,7 @@ PERSONAL TRAINER
   align-items: center;
   justify-content: center;
   height: 697px;
-  background: url("/images/section-bg.png") no-repeat center center / cover;
+  background: url("../images/section-bg.png") no-repeat center center / cover;
 }
 
 .personal-trainer img {
@@ -610,11 +610,11 @@ MEDIA
 }
 
 .media .left {
-  background: url("/images/freepass-bg.png") no-repeat center center / cover;
+  background: url("../images/freepass-bg.png") no-repeat center center / cover;
 }
 
 .media .right {
-  background: url("/images/callus-bg.png") no-repeat center center / cover;
+  background: url("../images/callus-bg.png") no-repeat center center / cover;
 }
 
 .media h1 {
