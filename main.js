@@ -18,6 +18,11 @@ $(function () {
   });
 });
 
+/*FOOTER YEAR
+=============*/
+var date = new Date();
+$(".year").html(date.getFullYear());
+
 /*SHOW FORMS*/
 const userBtnLogin = document.querySelector(".userbtnlogin");
 const userBtnSignup = document.querySelector(".userbtnsignup");

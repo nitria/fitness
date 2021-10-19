@@ -1,3 +1,7 @@
+@font-face {
+  font-family: openSans;
+  src: url(/fonts/OpenSans-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +20,7 @@ h5 {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: normal;
-  font-family: open sans;
+  font-family: openSans;
 }
 
 .form {
@@ -128,7 +132,7 @@ button {
   font-size: 0.87em;
   text-transform: uppercase;
   border: none;
-  font-family: open sans;
+  font-family: openSans;
   cursor: pointer;
 }
 
@@ -179,7 +183,7 @@ nav {
   padding: 5px 20px;
   color: #ffffff;
   font-weight: 600;
-  font-family: open sans;
+  font-family: openSans;
   font-size: 0.75em;
   transition: all 0.3s ease-in-out;
 }
@@ -291,6 +295,7 @@ nav {
 
 .booking .title h2 {
   font-size: 2.25em;
+  text-transform: uppercase;
 }
 
 .booking .title h1,
@@ -675,6 +680,8 @@ FOOTER
 }
 
 .column .social .follow ul {
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   padding: 0;
 }
@@ -752,6 +759,8 @@ FOOTER
 .instagram .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   margin: 20px 0;
 }
@@ -836,6 +845,8 @@ FOOTER
   nav,
   .user {
     width: 90%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     text-align: center;
     margin: 0;
