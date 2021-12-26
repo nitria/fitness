@@ -132,7 +132,7 @@ button {
   font-size: 0.87em;
   text-transform: uppercase;
   border: none;
-  font-family: openSans;
+  font-family: 'openSans', sans-serif;
   cursor: pointer;
 }
 
@@ -183,7 +183,7 @@ nav {
   padding: 5px 20px;
   color: #ffffff;
   font-weight: 600;
-  font-family: openSans;
+  font-family: 'openSans', sans-serif;
   font-size: 0.75em;
   transition: all 0.3s ease-in-out;
 }
